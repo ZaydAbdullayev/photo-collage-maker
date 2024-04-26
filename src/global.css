@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+  letter-spacing: 0.05rem;
+}
+
+body,
+html {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#root {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(243, 243, 243, 0.863) 0px 22px 70px 4px;
+}
+
+input,
+button {
+  outline: none;
+}
+
+button,
+input[type="file"] {
+  cursor: pointer;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.df {
+  display: flex;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.fww {
+  flex-wrap: wrap;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.aic {
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999;
+}

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./app.css";
+import "./css/app.css";
 import { FloatButton, ConfigProvider } from "antd";
 import { Slider, Select, Button, ColorPicker } from "antd";
 import { processImages, cursors, filters } from "./hooks";

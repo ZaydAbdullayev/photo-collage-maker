@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-import "./global.css";
 import "./app.css";
 import { FloatButton, ConfigProvider } from "antd";
 import { Slider, Select, Button, ColorPicker } from "antd";
